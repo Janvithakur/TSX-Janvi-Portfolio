@@ -12,6 +12,8 @@ Welcome to my personal portfolio website built using **HTML**, **CSS**, and **Ja
 - 📞 Contact section for easy communication
 - 📱 Mobile-friendly layout
 
+- "C:\Users\HP\Pictures\Screenshots\JANVI PORTFOLIO.png"
+
 
 
 💼 LinkedIn: https://www.linkedin.com/in/janvi-thakur-0ab557249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
