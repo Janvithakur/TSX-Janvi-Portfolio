@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JANVI THAKUR | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Custom styles for more interactivity */
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      border-bottom: 2px solid #444;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff !important;
+      font-size: 1.1rem;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ffc107 !important;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00416a, #e4e5e6);
+      color: white;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px;
+    }
+
+    .footer-text {
+      font-size: 1rem;
+    }
+
+    .container {
+      margin-top: 40px;
+    }
+
+    /* Added media query for responsiveness */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .card {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">JANVI THAKUR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="text-center py-5">
+    <h1>Welcome to Janvi Thakur's Portfolio</h1>
+    <p>Frontend Developer | HTML CSS JS BOOTSTRAP</p>
+  </header>
+
+  <!-- Featured Projects Section -->
+  <div class="container text-center py-4">
+    <h2>Featured Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Weather Data Mining and Accurate Climate prediction</h5>
+            <p class="card-text">Weather Prediction Application is a real-time dynamic weather prediction from OpenWeatherMap API. This application tells the weather condition of any location the user enters.</p>
+            <a href="https://janvithakur.github.io/WEATHER-APP/" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">AI and ML TASKS</h5>
+            <p class="card-text">This is a repository containing tasks that utilize Artificial Intelligence and Machine Learning Algorithms.</p>
+            <a href="https://github.com/Janvithakur/AI-and-ML" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="text-center">
+    <p class="footer-text"> &copy; 2025 Janvi Thakur. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
